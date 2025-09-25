@@ -1,7 +1,7 @@
 
 class Vehicle:
     def __init__(self, brand, model, max_speed, fuel=100):
-        # CONSTRUCTOR with proper attributes
+        # CONSTRUCTOR with attributes
         self.brand = brand
         self.model = model
         self._max_speed = max_speed  # ENCAPSULATION
